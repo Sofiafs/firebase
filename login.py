@@ -9,7 +9,7 @@ from kivy.uix.floatlayout import FloatLayout
 from kivy.core.window import Window
 from kivy.uix.screenmanager import ScreenManager, Screen, SlideTransition
 
-# Inicialize o Firebase fora das classes do Kivy para garantir que está feito uma vez
+
 cred = credentials.Certificate('C:/Users/sofia/Downloads/noble-might-399221-firebase-adminsdk-blpau-93e21293d0.json') 
 firebase_admin.initialize_app(cred, {
     'databaseURL': 'https://noble-might-399221-default-rtdb.firebaseio.com/'  
